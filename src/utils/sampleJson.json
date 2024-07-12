@@ -1,0 +1,51 @@
+{
+  "customer": {
+    "name": "",
+    "address": "",
+    "email": "",
+    "phone": "",
+    "temperature": "",
+    "humidity": "",
+    "id": "",
+    "zc_po_id": ""
+  },
+  "scope": {
+    "furniture": {
+      "is_part": false,
+      "is_appliance": false,
+      "kasa_is_moving": false,
+      "special_items": false
+    },
+    "refinishing": {
+      "is_part": false,
+      "are_we_matching": false
+    },
+    "installation": {
+      "is_part": false,
+      "are_we_matching": false,
+      "are_we_levelling": false
+    },
+    "is_repair": false,
+    "is_staircase": false,
+    "is_transition": false,
+    "floors": []
+  },
+  "measurements": [],
+  "refinishing_checklists": [],
+  "matching_refinishing_checklists": [],
+  "matching_installation_checklists": [],
+  "installation_checklists": [],
+  "subfloor_details": [],
+  "molding": [],
+  "existing_materials": [],
+  "furnitures": [],
+  "kitchen_furnitures": [],
+  "specialItem_furnitures": [],
+  "levellings": [],
+  "repairs": [],
+  "transitions": [],
+  "staircases": [],
+  "isBgChangedBtnArray": [],
+  "furnitureNote": "",
+  "totalProjectSF": ""
+}

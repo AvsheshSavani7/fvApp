@@ -1,0 +1,49 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  background: url("/public/images/fv-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.slide-image {
+  background-position-y: calc((100vh - 268px) * -1);
+  transition: 1s ease;
+}
+
+
+/* Hide the scrollbar for webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 0; /* Set the width of the scrollbar */
+  height: 0;
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Set the background color of the scrollbar thumb */
+}
+
+.custom-bullet-point::before {
+  content: "●"; /* Bullet point character */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.project-complication-bullet::before {
+  content: "•"; /* Bullet point character */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.pdf-font{
+  font-size: 22px;
+}

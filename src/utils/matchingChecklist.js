@@ -1,0 +1,93 @@
+import { v4 as uuidv4 } from "uuid";
+
+export const matchingRefinishingChecklist = [
+  {
+    id: uuidv4(),
+    level: 1,
+    question: "Images",
+    answer: [],
+    type: "IMAGE",
+    col: 12,
+    mandatory: true,
+  },
+  {
+    id: uuidv4(),
+    level: 1,
+    question: "How is the space connected to the area being refinished?",
+    option: [
+      "Adjacent to Space",
+      "Near Space",
+      "Different Levels",
+      "Different Areas of the Home",
+      "Matching Existing Floor Colors",
+    ],
+    answer: "",
+    type: "DROPDOWN",
+    col: 12,
+    mandatory: true,
+  },
+  {
+    id: uuidv4(),
+    level: 1,
+    question: "Notes",
+    answer: "",
+    type: "TEXT",
+    col: 12,
+    mandatory: false,
+  },
+];
+
+export const matchingInstallationChecklist = [
+  {
+    id: uuidv4(),
+    level: 1,
+    question: "Type of Floor",
+    option: [
+      "Prefinished Solid",
+      "Prefinished Engineered",
+      "Unfinished Solid",
+      "Unfinished Engineered",
+      "Laminate",
+      "Vinyl",
+    ],
+    answer: "",
+    type: "DROPDOWN",
+    col: 4,
+    mandatory: true,
+  },
+  {
+    id: uuidv4(),
+    level: 1,
+    question: "Type of Matching",
+    option: ["Product", "Specifications", "Look"],
+    answer: "",
+    type: "DROPDOWN",
+    col: 4,
+    mandatory: true,
+  },
+  {
+    id: uuidv4(),
+    level: 1,
+    question: "Are we Refinishing?",
+    option: ["Yes", "No"],
+    answer: "",
+    type: "DROPDOWN",
+    col: 4,
+    mandatory: true,
+  },
+  {
+    id: uuidv4(),
+    level: 1,
+    question: "How is the space connected to the area being refinished?",
+    option: [
+      "Adjacent",
+      "Near",
+      "Different Levels",
+      "Different Areas of the home",
+    ],
+    answer: "",
+    type: "DROPDOWN",
+    col: 12,
+    mandatory: true,
+  },
+];

@@ -1,0 +1,29 @@
+.left-section {
+  width: 480px;
+  margin-right: 58px;
+  margin-top: 50px;
+}
+
+.main-btn {
+    width: 110px;
+    height: 110px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 50%;
+    background-color: white;
+    align-items: center;
+  padding: 3px;
+  justify-content: center;
+}
+
+
+.verticle-line{
+  width:2px;
+  height:103px;
+  background-color:rgba(32, 32, 32, 0.20);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

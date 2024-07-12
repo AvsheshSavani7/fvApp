@@ -1,0 +1,7 @@
+.thin-border-table {
+  border-collapse: collapse !important;
+}
+
+.thin-border {
+  border: 0.5px solid #6685ac !important;
+}

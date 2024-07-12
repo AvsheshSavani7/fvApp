@@ -1,0 +1,76 @@
+{
+  "roomTypes": [
+    { "icon": "/images/roomsIcons/lr.svg", "name": "LR", "type": "LR" },
+    {
+      "icon": "/images/roomsIcons/kitchen.svg",
+      "name": "Kitchen",
+      "type": "Kitchen"
+    },
+    { "icon": "/images/roomsIcons/dr.svg", "name": "DR", "type": "DR" },
+    { "icon": "/images/roomsIcons/br.svg", "name": "Bed", "type": "Bed" },
+    {
+      "icon": "/images/roomsIcons/br.svg",
+      "name": "Mas. Bed",
+      "type": "Mas. Bed"
+    },
+    { "icon": "/images/roomsIcons/bath.svg", "name": "Bath", "type": "Bath" },
+    {
+      "icon": "/images/roomsIcons/office.svg",
+      "name": "Office/Lib",
+      "type": "Office/Lib"
+    },
+    {
+      "icon": "/images/roomsIcons/laundry.svg",
+      "name": "Laundry",
+      "type": "Laundry"
+    },
+    {
+      "icon": "/images/roomsIcons/basement1.svg",
+      "name": "Basement",
+      "type": "Basement"
+    },
+    {
+      "icon": "/images/roomsIcons/pr.svg",
+      "name": "Playroom",
+      "type": "Playroom"
+    },
+    {
+      "icon": "/images/roomsIcons/guest.svg",
+      "name": "Guest",
+      "type": "Guest"
+    },
+    { "icon": "/images/roomsIcons/fr.svg", "name": "FR", "type": "FR" },
+    {
+      "icon": "/images/roomsIcons/theater.svg",
+      "name": "Theater",
+      "type": "Theater"
+    },
+    {
+      "icon": "/images/roomsIcons/gym-1.svg",
+      "name": "Gym/Rec",
+      "type": "Gym/Rec"
+    },
+    { "icon": "/images/roomsIcons/closet-1.svg", "name": "WIC", "type": "WIC" },
+    {
+      "icon": "/images/roomsIcons/entry.svg",
+      "name": "Entry",
+      "type": "Entry"
+    },
+    {
+      "icon": "/images/roomsIcons/sun.svg",
+      "name": "Sunroom",
+      "type": "Sunroom"
+    },
+    {
+      "icon": "/images/roomsIcons/hallway.svg",
+      "name": "Hallway",
+      "type": "Hallway"
+    },
+    {
+      "icon": "/images/roomsIcons/pantry-1.svg",
+      "name": "Pantry",
+      "type": "Pantry"
+    },
+    { "icon": "/images/roomsIcons/sr.svg", "name": "Other", "type": "Other" }
+  ]
+}

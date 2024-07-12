@@ -1,0 +1,308 @@
+.pagination {
+  display: flex;
+  border-radius: 8px;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 6px 0 6px 0;
+  margin: 0;
+}
+
+.pagination li {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  height: 30px;
+}
+
+.pagination li a {
+  color: white;
+}
+
+.pagination .disabled a {
+  cursor: not-allowed;
+}
+
+.pagination .selected {
+  border: 1px solid white;
+  padding: 0px 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.pagination .selected a {
+  color: var(--primary_color);
+}
+
+.pagination li {
+  transition: 0.2s;
+}
+
+.pagination li:hover {
+  border: 1px solid white;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+
+.catalogue-radio {
+  height: 3em;
+  display: flex;
+  width: 100%;
+}
+
+.catalogue-radio
+  .ant-radio-group-solid
+  :where(
+    .css-dev-only-do-not-override-12czi4v
+  ).ant-radio-button-wrapper-checked:not(
+    :where(
+        .css-dev-only-do-not-override-12czi4v
+      ).ant-radio-button-wrapper-disabled
+  ) {
+  background: rgb(70, 70, 70) !important;
+  border-color: var(--primary_color) !important;
+}
+
+.ant-popover-content {
+  background-color: black;
+}
+
+.ant-popover-inner {
+  background-color: var(--root_color) !important;
+  /* width: 20%; */
+}
+
+.ant-popover-title {
+  color: white !important;
+}
+
+.ant-popover-arrow::before {
+  background-color: var(--root_color) !important;
+}
+.ant-popover-arrow::after {
+  background-color: var(--root_color) !important;
+}
+
+.product_search .ant-input-affix-wrapper {
+  background-color: var(--toolbar_color);
+  border-start-end-radius: 12px !important;
+  border-end-end-radius: 12px !important;
+  border-start-start-radius: 12px !important;
+  border-end-start-radius: 12px !important;
+  height: 52px;
+  border: none;
+  /* border-radius: 12px; */
+}
+.product_search .ant-input-affix-wrapper input {
+  background-color: var(--toolbar_color);
+  /* color: rgba(255, 255, 255, 0.8); */
+}
+.product_search .ant-input-wrapper .ant-input-group-addon {
+  display: none;
+}
+.product_search .ant-input-suffix .ant-input-clear-icon {
+  color: white;
+}
+
+.single-card-modal .ant-modal-content {
+  background-color: var(--toolbar_color);
+  color: white;
+  top: 160px;
+  border-radius: 0px;
+  height: 450px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.single-card-modal .ant-modal-content .ant-modal-header {
+  background-color: transparent;
+}
+
+/* .carousel{
+    height: 100%;
+}
+
+.carousel .slider{
+    height: 300px;
+}
+
+.carousel .slider .slide{
+    height: 100%;
+} */
+
+.carousel .thumbs-wrapper {
+  margin: 0;
+}
+
+.carousel .thumbs-wrapper .thumbs {
+  display: flex;
+  justify-content: left;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel .thumbs-wrapper .thumbs .thumb {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.carousel .thumbs-wrapper .thumbs .selected {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.single_card {
+  transition: 0.2s;
+}
+.single_card:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 3px 3px;
+}
+
+.dragging {
+  cursor: none;
+}
+
+.tools {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.zoomButton,
+.resetButton {
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.zoomButton:hover,
+.resetButton:hover {
+  background-color: #f0f0f0;
+}
+
+.transform-component-module_content__FBWxo {
+  width: 100%;
+  justify-content: center;
+}
+
+.transform-component-module_wrapper__SPB86 {
+  width: 100%;
+  justify-content: center;
+}
+
+.proposal-tabs .ant-tabs-nav {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  width: calc(
+    26vw - 100px
+  ) !important; /* if flicker come here to increase or decrease it - check calculation in Constants */
+}
+.proposal-tabs .ant-tabs-nav-wrap {
+  width: 100%;
+}
+
+.proposal-tabs .ant-tabs-nav-list {
+  width: 100% !important;
+}
+
+.proposal-tabs .ant-tabs-tab {
+  width: 40% !important;
+  margin-left: 0px !important;
+  justify-content: center !important;
+}
+
+.proposal-tabs .ant-tabs-tab-active {
+  border-bottom-color: var(--secondary_color_dark) !important;
+}
+
+.widget_disclosure .ant-checkbox-wrapper {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.widget_disclosure .ant-checkbox-wrapper .ant-checkbox-inner {
+  background-color: var(--input_fields_color);
+  border: none;
+  width: 17px;
+  height: 17px;
+}
+
+.widget_disclosure textarea {
+  background-color: var(--textarea_color);
+  border: none;
+  color: white;
+  font-family: var(--font_family);
+}
+
+.widget_disclosure .ant-select {
+  /* width: var(--input_fields_width) !important; */
+  height: var(--input_fields_height) !important;
+  text-align: left;
+}
+.widget_disclosure .ant-select-selector {
+  border-radius: var(--input_fields_border_radius);
+  background-color: var(--root_color) !important;
+  color: white !important;
+  font-family: var(--font_family) !important;
+  font-size: var(--font_size) !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.widget_disclosure .ant-select .ant-select-arrow {
+  color: white;
+  padding: 15px 9px;
+  background: var(--arrow_bg);
+  margin: -15px -7px 0 0;
+  border-radius: var(--input_fields_border_radius);
+}
+
+.widget_disclosure .ant-select .ant-select-clear {
+  right: 38px;
+  background-color: transparent;
+  color: white;
+}
+
+.proposal_list .ant-input-number {
+  width: 55px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--arrow_bg);
+}
+
+.proposal_list .ant-input-number input {
+  font-family: var(--font_family);
+  color: white;
+  cursor: default;
+}
+
+.proposal_list .ant-input-number-input {
+  cursor: default;
+}
+
+.ant-collapse-header-text {
+  color: white;
+  text-align: left;
+}
+
+.dropdown .ant-select .ant-select-clear {
+  right: 38px;
+  background-color: transparent;
+  color: white;
+}
+.dropdownLeftSide .ant-select .ant-select-clear {
+  right: 34px;
+  background-color: transparent;
+  color: white;
+}
